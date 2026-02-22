@@ -9,7 +9,7 @@
 - Customer churn increases **Customer Acquisition Cost (CAC)** and reduces long-term **Customer Lifetime Value (CLV)**. Without an effective mechanism to identify high-risk customers, companies must continuously invest in acquiring new customers, which negatively impacts revenue stability.
 
 ### 🔹 Objective:
-- Analyzing key factors influencing customer churn through Exploratory Data Analysis (EDA) and building predictive models to identify potential churn risks.
+- To analyze key factors influencing customer churn through Exploratory Data Analysis (EDA) and build predictive models to identify potential churn risks.
 
 ### 🔹 Methods:
 - Compared **Logistic Regression, Random Forest, and XGBoost**
@@ -59,7 +59,7 @@
 - No resampling (e.g., SMOTE) was applied 
 - Selected evaluation metrics suitable for imbalanced data (F1-score and PR Curve)
 
-### 4️⃣ Evaluation Metrics
+### 4️⃣ Evaluation Metrics:
 - **Recall**: Ability to correctly identify actual churn customers
 - **Precision**: Proportion of correctly predicted churn customers
 - **F1-score**: Harmonic mean of Precision and Recall
@@ -77,7 +77,7 @@
 ![PR Curve](images/XGB_pr_curve_churn.png)
 
 ### 🔹 SHAP Feature Importance (Global Explanation)
-- Displays the overall impact and direction of features on model predictions.
+- Displays the overall impact and direction of features on the model’s output.
 ![SHAP Beeswarm](images/XGB_beeswarm_churn.png)
 
 ### 🔹 Key Insights
@@ -89,7 +89,7 @@
 
 ## 🚀 Streamlit Interactive Demo
 
-> This project included an interactive web application built with Streamlit to demonstrate model performance and prediction capabilities
+> This project includes an interactive web application built with Streamlit to demonstrate model performance and prediction capabilities.
 
 ### 🔹 Tab 1: Project Overview 
 - Dataset preview (first 5 records)
