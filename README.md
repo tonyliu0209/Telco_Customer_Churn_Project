@@ -125,4 +125,4 @@
 ### 部署：
 - Streamlit
 
-> English version available: [README_EN.md](README_EN.md)
+🔗 English version available: [README_EN.md](README_EN.md)
