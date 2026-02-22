@@ -126,9 +126,9 @@ tab1, tab2, tab3 = st.tabs([
 ])
 
 with tab1:
-    st.subheader("📋 數據分佈")
-    st.write("📋 數據集概覽 (前 5 筆樣本)：")
-    st.dataframe(df.head(5))
+    st.subheader("📋 Dataset Preview")
+    st.write("資料集前 5 筆樣本：")
+    st.dataframe(df.head())
 
     st.subheader("📊 模型比較表")
 
@@ -247,6 +247,7 @@ with tab3:
         - Electronic Check 客戶群預測風險較高。
         - PR Curve 展示 Precision 與 Recall 之間的權衡關係。
     """)
+
 
 
 
