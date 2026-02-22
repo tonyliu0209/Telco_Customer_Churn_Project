@@ -224,7 +224,7 @@ with tab3:
     
     st.subheader("📊 模型效能")
     st.image(
-        "XGB_pr_curve_churn.png",
+        "images/XGB_pr_curve_churn.png",
         caption="XGBoost - Precision-Recall Curve",
         # use_container_width=True
     )
@@ -233,7 +233,7 @@ with tab3:
 
     st.subheader("🔎 特徵影響分析")
     st.image(
-        "XGB_beeswarm_churn.png",
+        "images/XGB_beeswarm_churn.png",
         caption="XGBoost - SHAP Beeswarm",
         # use_container_width=True
     )
@@ -247,5 +247,6 @@ with tab3:
         - Electronic Check 客戶群預測風險較高。
         - PR Curve 展示 Precision 與 Recall 之間的權衡關係。
     """)
+
 
 
