@@ -1,6 +1,8 @@
 # 📞 Telco Customer Churn Prediction & Explainable Analysis
 > **Identifying high-risk churn customers using machine learning and providing interpretable insights through SHAP.**
 
+🔗 Live Demo: https://telcocustomerchurnproject-tpn5nfeyb5asju7k4uixs4.streamlit.app/
+
 ---
 
 ## 📌 Project Overview
