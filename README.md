@@ -1,6 +1,8 @@
 # 📞 Telco Customer Churn 預測與解釋分析專案
 > **透過機器學習識別高風險流失客戶，並利用 SHAP 提供可解釋之決策建議。**
 
+🔗 Live Demo: https://your-streamlit-link.streamlit.app
+
 ---
 
 ## 📌 專案概述（Project Overview）
