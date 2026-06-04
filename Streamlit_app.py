@@ -371,7 +371,7 @@ with tab3:
     with col1:
         st.subheader("📊 特徵重要度")
         st.image(
-            "RF_feature_importance.png",
+            "images/RF_feature_importance.png",
             caption="Random Forest - Feature Importance",
             use_container_width=True
         )
@@ -379,7 +379,7 @@ with tab3:
     with col2:
         st.subheader("🔎 SHAP 蜂群圖")
         st.image(
-            "RF_shap_beeswarm.png",
+            "images/RF_shap_beeswarm.png",
             caption="Random Forest - SHAP Beeswarm",
             use_container_width=True
         )
@@ -387,7 +387,7 @@ with tab3:
     with col3:
         st.subheader("📈 PR 曲線")
         st.image(
-            "RF_pr_curve.png",
+            "images/RF_pr_curve.png",
             caption="Random Forest - Precision-Recall Curve",
             use_container_width=True
         )
