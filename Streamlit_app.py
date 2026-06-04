@@ -5,12 +5,17 @@ import matplotlib.pyplot as plt
 import joblib
 import platform
 
+
 # 偵測作業系統並設定字體
 if platform.system() == 'Windows':
     plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] # 微軟正黑體
+elif platform.system() == 'Darwin':
+    plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']   # Mac 字體
 else:
-    plt.rcParams['font.sans-serif'] = ['Arial Unicode MS'] # Mac/Linux 常用
-plt.rcParams['axes.unicode_minus'] = False # 解決負號變框框
+    # 這裡對應 Streamlit Cloud (Linux)，使用我們透過 packages.txt 安裝的字體
+    plt.rcParams['font.sans-serif'] = ['WenQuanYi Zen Hei']  # 文泉驛正黑體
+
+plt.rcParams['axes.unicode_minus'] = False # 解決負號變框框的問題
 
 # 設定頁面標題
 st.set_page_config(page_title="Telco Customer Churn 預測儀表板", layout="wide")
@@ -261,7 +266,7 @@ with tab2:
         
         st.divider()
         
-        # --- ✨ 升級重點：用帶有外框的 Container 把結果與特徵打包平排 ---
+        # --- 佈局優化：用帶有外框的 Container 把結果與特徵打包平排 ---
         st.markdown("### 🔍 核心預測報告")
         with st.container(border=True):
             # 切分三欄：實際狀態 ｜ 模型預測 ｜ 關鍵特徵
