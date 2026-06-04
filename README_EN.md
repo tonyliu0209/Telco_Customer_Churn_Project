@@ -94,10 +94,10 @@ Early identification of high-risk churn customers enables business teams to inte
 | XGB   | 0.566 | 0.578 | 0.616 | 0.616 |
 
 ### 🔹 Precision-Recall Curve (RF Final Model)
-![PR Curve](RF_pr_curve.png)
+![PR Curve](images/RF_pr_curve.png)
 
 ### 🔹 SHAP Feature Importance — Beeswarm (RF Final Model)
-![SHAP Beeswarm](RF_shap_beeswarm.png)
+![SHAP Beeswarm](images/RF_shap_beeswarm.png)
 
 ### 🔹 Key Insights
 
