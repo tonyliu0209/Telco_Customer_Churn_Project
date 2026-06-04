@@ -42,8 +42,12 @@ def add_features(df):
     # 確保進入 Pipeline 時為數值型態，避免 ValueError
     binary_cols = ["Partner", "Dependents", "PaperlessBilling"]
     for col in binary_cols:
-        if col in df.columns and df[col].dtype == 'object':
-            df[col] = df[col].map({"No": 0, "Yes": 1})
+        if col in df.columns:
+            df[col] = (
+                df[col]
+                .replace({"No": 0, "Yes": 1})
+                .astype(int)
+            )
 
     # 1. 處理 TotalCharges：原始資料含空字串，強制轉型並填補空值
     if "TotalCharges" in df.columns:
