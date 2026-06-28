@@ -94,10 +94,10 @@
 | XGB  | 0.566 | 0.578 | 0.616 | 0.616 |
 
 ### 🔹 Precision-Recall Curve（RF 最終模型）
-![PR Curve](RF_pr_curve.png)
+![PR Curve](images/RF_pr_curve.png)
 
 ### 🔹 SHAP 特徵重要性 — Beeswarm（RF 最終模型）
-![SHAP Beeswarm](RF_shap_beeswarm.png)
+![SHAP Beeswarm](images/RF_shap_beeswarm.png)
 
 ### 🔹 關鍵洞察
 
